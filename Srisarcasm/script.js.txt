@@ -1,0 +1,55 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Smooth button feedback
+    const buttons = document.querySelectorAll(".book-btn");
+
+    buttons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            const packageSection = button.closest(".package");
+            const packageName =
+                packageSection.querySelector("h2").textContent;
+
+            const message =
+                `Hi Srisarcasm! I’m interested in the ${packageName} package.`;
+
+            const instagramURL =
+                "https://instagram.com/YOUR_USERNAME";
+
+            // Copy booking message
+            navigator.clipboard.writeText(message).catch(() => {});
+
+            // Open Instagram
+            window.open(instagramURL, "_blank");
+
+        });
+
+    });
+
+
+    // Pause videos when they leave the screen
+    const videos = document.querySelectorAll("video");
+
+    const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            const video = entry.target;
+
+            if (entry.isIntersecting) {
+                video.play().catch(() => {});
+            } else {
+                video.pause();
+            }
+
+        });
+
+    }, {
+        threshold: 0.25
+    });
+
+
+    videos.forEach(video => observer.observe(video));
+
+});

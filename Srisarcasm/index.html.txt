@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Srisarcasm — Advertising Packages</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">SRISARCASM</div>
+
+    <a href="#packages" class="header-btn">
+        VIEW PACKAGES
+    </a>
+</header>
+
+
+<main id="packages">
+
+    <!-- FEED POST -->
+    <section class="package">
+        <div class="package-info">
+
+            <span class="package-number">01</span>
+
+            <h2>FEED POST</h2>
+
+            <div class="price">$15</div>
+
+            <p class="description">
+                Get your brand featured as a professional Instagram
+                feed post on Srisarcasm.
+            </p>
+
+            <ul>
+                <li>1 Instagram Feed Post</li>
+                <li>Professional creative/design</li>
+                <li>Caption</li>
+                <li>Brand tag / mention</li>
+                <li>Relevant hashtags</li>
+                <li>Permanent post placement</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="mockup single-feed">
+            <img src="assets/feed-post.jpg" alt="Feed Post Mockup">
+        </div>
+    </section>
+
+
+    <!-- STORY -->
+    <section class="package reverse">
+
+        <div class="package-info">
+
+            <span class="package-number">02</span>
+
+            <h2>STORY</h2>
+
+            <div class="price">$10</div>
+
+            <p class="description">
+                Put your brand directly in front of the Srisarcasm
+                audience through Instagram Stories.
+            </p>
+
+            <ul>
+                <li>1 Instagram Story</li>
+                <li>Creative/design</li>
+                <li>Brand tag / mention</li>
+                <li>Link / website mention</li>
+                <li>24-hour Story placement</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="mockup story-mockup">
+            <img src="assets/story.jpg" alt="Story Mockup">
+        </div>
+
+    </section>
+
+
+    <!-- REEL -->
+    <section class="package">
+
+        <div class="package-info">
+
+            <span class="package-number">03</span>
+
+            <h2>REEL</h2>
+
+            <div class="price">$30</div>
+
+            <p class="description">
+                A promotional Reel created and published on
+                the Srisarcasm Instagram page.
+            </p>
+
+            <ul>
+                <li>1 Promotional Instagram Reel</li>
+                <li>Video editing</li>
+                <li>Caption</li>
+                <li>Brand tag / mention</li>
+                <li>Relevant hashtags</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="mockup reel-mockup">
+
+            <video autoplay muted loop playsinline>
+                <source src="assets/reel.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- POST + STORY -->
+    <section class="package reverse">
+
+        <div class="package-info">
+
+            <span class="package-number">04</span>
+
+            <h2>POST + STORY</h2>
+
+            <div class="price">$25</div>
+
+            <p class="description">
+                Combine a permanent Feed Post with an Instagram Story
+                for broader visibility.
+            </p>
+
+            <ul>
+                <li>1 Feed Post</li>
+                <li>1 Instagram Story</li>
+                <li>Creative/design</li>
+                <li>Caption</li>
+                <li>Brand tag / mention</li>
+                <li>Relevant hashtags</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="combined-mockup">
+
+            <img src="assets/feed-post.jpg" alt="Feed Post">
+
+            <img src="assets/story.jpg" alt="Story">
+
+        </div>
+
+    </section>
+
+
+    <!-- REEL + STORY -->
+    <section class="package">
+
+        <div class="package-info">
+
+            <span class="package-number">05</span>
+
+            <h2>REEL + STORY</h2>
+
+            <div class="price">$40</div>
+
+            <p class="description">
+                Combine a promotional Reel with an Instagram Story
+                for a stronger campaign presence.
+            </p>
+
+            <ul>
+                <li>1 Promotional Reel</li>
+                <li>1 Instagram Story</li>
+                <li>Video editing</li>
+                <li>Caption</li>
+                <li>Brand tag / mention</li>
+                <li>24-hour Story placement</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="combined-mockup">
+
+            <video autoplay muted loop playsinline>
+                <source src="assets/reel.mp4" type="video/mp4">
+            </video>
+
+            <img src="assets/story.jpg" alt="Story">
+
+        </div>
+
+    </section>
+
+
+    <!-- POST + REEL + STORY -->
+    <section class="package reverse">
+
+        <div class="package-info">
+
+            <span class="package-number">06</span>
+
+            <h2>POST + REEL + STORY</h2>
+
+            <div class="price">$55</div>
+
+            <p class="description">
+                The complete promotional package covering Feed,
+                Reel and Story content.
+            </p>
+
+            <ul>
+                <li>1 Feed Post</li>
+                <li>1 Promotional Reel</li>
+                <li>1 Instagram Story</li>
+                <li>Creative/design</li>
+                <li>Video editing</li>
+                <li>Caption & hashtags</li>
+                <li>Brand tag / mention</li>
+            </ul>
+
+            <button class="book-btn">BOOK THIS PACKAGE</button>
+
+        </div>
+
+        <div class="combined-mockup triple">
+
+            <img src="assets/feed-post.jpg" alt="Feed Post">
+
+            <video autoplay muted loop playsinline>
+                <source src="assets/reel.mp4" type="video/mp4">
+            </video>
+
+            <img src="assets/story.jpg" alt="Story">
+
+        </div>
+
+    </section>
+
+
+    <!-- PREMIUM -->
+    <section class="package premium">
+
+        <div class="package-info">
+
+            <span class="package-number">07</span>
+
+            <div class="premium-label">PREMIUM</div>
+
+            <h2>PREMIUM PACKAGE</h2>
+
+            <div class="price">$85</div>
+
+            <p class="description">
+                A complete 7-day promotional campaign designed
+                to keep your brand visible across multiple formats.
+            </p>
+
+            <ul>
+                <li>2 Feed Posts</li>
+                <li>2 Promotional Reels</li>
+                <li>2 Instagram Stories</li>
+                <li>Creative/design</li>
+                <li>Video editing</li>
+                <li>Caption writing</li>
+                <li>Brand tags & mentions</li>
+                <li>Relevant hashtags</li>
+                <li>Coordinated posting schedule</li>
+            </ul>
+
+            <button class="book-btn premium-btn">
+                BOOK PREMIUM
+            </button>
+
+        </div>
+
+        <div class="combined-mockup triple">
+
+            <img src="assets/feed-post.jpg" alt="Feed Post">
+
+            <video autoplay muted loop playsinline>
+                <source src="assets/reel.mp4" type="video/mp4">
+            </video>
+
+            <img src="assets/story.jpg" alt="Story">
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <h2>READY TO PROMOTE YOUR BRAND?</h2>
+    <p>Get your brand in front of the Srisarcasm audience.</p>
+
+    <a href="https://instagram.com/YOUR_USERNAME" class="footer-btn">
+        DM TO BOOK YOUR SLOT
+    </a>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
